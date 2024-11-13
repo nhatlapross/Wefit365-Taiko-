@@ -1,0 +1,529 @@
+2024-10-24T13:12:42.783Z error: uncaughtException: Cannot find module '../controller/priceFeed.controller'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module '../controller/priceFeed.controller'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js:2:29)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+2024-10-24T13:12:42.793Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:12:42.794Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:17.318Z error: uncaughtException: Cannot find module './priceFeed_service'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module './priceFeed_service'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js:10:36)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+2024-10-24T13:14:17.333Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:17.334Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:17.335Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:58.447Z error: uncaughtException: Cannot find module '../abi/tokenAbi.json'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/token.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module '../abi/tokenAbi.json'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/token.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/token.service.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js:10:25)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+2024-10-24T13:14:58.460Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:58.461Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:14:58.462Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:11.305Z error: uncaughtException: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/tokenAbi.json: Unexpected end of JSON input
+SyntaxError: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/tokenAbi.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1324:39)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/token.service.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js:10:25)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+2024-10-24T13:16:11.329Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:11.330Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:11.331Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:36.208Z error: uncaughtException: Cannot find module '../abi/orderAbi.json'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module '../abi/orderAbi.json'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/order.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/order.service.js:11:18)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/order.controller.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+2024-10-24T13:16:36.225Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:36.226Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:16:36.227Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:17:11.231Z error: uncaughtException: Cannot find module './service/priceFeed_service'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module './service/priceFeed_service'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/index.js:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+2024-10-24T13:17:11.239Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:17:11.239Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:18:37.961Z error: uncaughtException: Cannot read properties of undefined (reading 'headersSent')
+TypeError: Cannot read properties of undefined (reading 'headersSent')
+    at headersSent (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:258:21)
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:92:17
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:216:14)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/application.js:181:10)
+    at app (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/express.js:39:9)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/index.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+2024-10-24T13:18:37.971Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:18:37.972Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:19:05.738Z error: uncaughtException: Cannot read properties of undefined (reading 'headersSent')
+TypeError: Cannot read properties of undefined (reading 'headersSent')
+    at headersSent (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:258:21)
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:92:17
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:216:14)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/application.js:181:10)
+    at app (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/express.js:39:9)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/index.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+2024-10-24T13:19:05.743Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:19:05.744Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:19:20.755Z error: uncaughtException: Cannot read properties of undefined (reading 'headersSent')
+TypeError: Cannot read properties of undefined (reading 'headersSent')
+    at headersSent (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:258:21)
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/finalhandler/index.js:92:17
+    at /Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:216:14)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/application.js:181:10)
+    at app (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/express/lib/express.js:39:9)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/index.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+2024-10-24T13:19:20.767Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:19:20.768Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:20:09.635Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-24T13:20:09.637Z error: uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-10-25T08:46:57.651Z error: uncaughtException: Cannot find module 'xrpl'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/wallet.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/wallet.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/wallet.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+Error: Cannot find module 'xrpl'
+Require stack:
+- /Users/phamdat/wefit365/Wefit/wefit-backend/service/wallet.service.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/controller/wallet.controller.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/wallet.route.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/routes/index.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/config/express.js
+- /Users/phamdat/wefit365/Wefit/wefit-backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/wallet.service.js:20:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/wallet.controller.js:2:31)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+2024-10-26T01:48:15.770Z info: Get wallet error: 
+2024-10-26T01:48:49.103Z info: Get wallet error: 
+2024-10-26T01:52:05.714Z info: Get wallet error: 
+2024-10-26T01:53:04.583Z info: Get wallet error: 
+2024-10-26T02:17:24.936Z error: uncaughtException: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/nftByteCode.json: Unexpected token f in JSON at position 21
+SyntaxError: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/nftByteCode.json: Unexpected token f in JSON at position 21
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1324:39)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/nft.service.js:8:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/nft.controller.js:3:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+2024-10-26T02:18:13.778Z error: uncaughtException: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/nftByteCode.json: Unexpected end of JSON input
+SyntaxError: /Users/phamdat/wefit365/Wefit/wefit-backend/abi/nftByteCode.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1324:39)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/nft.service.js:8:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/nft.controller.js:3:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+2024-10-26T02:18:32.729Z error: uncaughtException: Could not create addresses from your mnemonic or private key(s). Please check that your inputs are correct.
+Error: Could not create addresses from your mnemonic or private key(s). Please check that your inputs are correct.
+    at new HDWalletProvider (/Users/phamdat/wefit365/Wefit/wefit-backend/node_modules/@truffle/hdwallet-provider/dist/index.js:114:19)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/utils/provider.js:11:25)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/service/nft.service.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/phamdat/wefit365/Wefit/wefit-backend/controller/nft.controller.js:3:5)
+2024-10-26T02:22:05.639Z info: Create order error: 
+2024-10-26T02:22:29.501Z info: Create order error: 
+2024-10-26T02:22:59.365Z info: Create order error: 
+2024-10-26T02:23:44.410Z info: Create order error: 
+2024-10-26T02:24:02.948Z info: Create order error: 
+2024-10-26T02:24:39.675Z info: Create order error: 
+2024-10-26T02:25:16.879Z info: Create order error: 
+2024-10-26T02:25:21.121Z info: Create order error: 
+2024-10-26T02:57:29.106Z info: Create order error: 
+2024-10-27T01:50:26.054Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-27T13:48:40.653Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: getaddrinfo ENOTFOUND rpc-evm-sidechain.xrpl.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: getaddrinfo ENOTFOUND rpc-evm-sidechain.xrpl.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-28T13:20:17.020Z info: Create challenge error: 
+2024-10-28T13:27:40.792Z info: Create challenge error: 
+2024-10-28T13:27:46.173Z info: Create challenge error: 
+2024-10-28T13:27:53.704Z info: Create challenge error: 
+2024-10-28T13:28:15.066Z info: Create challenge error: 
+2024-10-28T13:31:07.188Z info: Create challenge error: 
+2024-10-28T17:38:43.518Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-30T15:04:33.937Z info: Withdraw challenge error: 
+2024-10-30T15:12:56.027Z info: Withdraw challenge error: 
+2024-10-30T15:13:01.154Z info: Withdraw challenge error: 
+2024-10-30T15:13:35.094Z info: Withdraw challenge error: 
+2024-10-30T15:13:37.202Z info: Withdraw challenge error: 
+2024-10-30T15:14:00.326Z info: Withdraw challenge error: 
+2024-10-30T15:17:56.740Z info: Withdraw challenge error: 
+2024-10-30T15:17:58.189Z info: Withdraw challenge error: 
+2024-10-30T15:18:04.565Z info: Withdraw challenge error: 
+2024-10-30T15:20:13.667Z info: Withdraw challenge error: 
+2024-10-30T16:12:12.023Z info: Withdraw challenge error: 
+2024-10-30T16:12:46.963Z info: Withdraw challenge error: 
+2024-10-30T16:23:23.346Z info: Create challenge config error: 
+2024-10-30T16:44:23.463Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:848:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-31T15:34:53.167Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:816:19)
+    at Object.onceWrapper (node:events:631:28)
+    at ClientRequest.emit (node:events:517:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+    at Object.onceWrapper (node:events:631:28)
+    at TLSSocket.emit (node:events:529:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:816:19)
+    at Object.onceWrapper (node:events:631:28)
+    at ClientRequest.emit (node:events:517:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+    at Object.onceWrapper (node:events:631:28)
+    at TLSSocket.emit (node:events:529:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-01T15:37:07.043Z error: uncaughtException: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: getaddrinfo ENOTFOUND rpc-evm-sidechain.xrpl.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+Error: PollingBlockTracker - encountered an error while attempting to update latest block:
+Error: getaddrinfo ENOTFOUND rpc-evm-sidechain.xrpl.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+    at PollingBlockTracker._performSync (F:\Aptos\Wefit\wefit-backend\node_modules\eth-block-tracker\src\polling.js:51:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-11T13:42:21.851Z error: uncaughtException: Unhandled error. ({
+  code: -32603,
+  message: 'ESOCKETTIMEDOUT',
+  data: { originalError: { code: 'ESOCKETTIMEDOUT', connect: false } },
+  stack: 'Error: ESOCKETTIMEDOUT\n' +
+    '    at ClientRequest.<anonymous> (F:\\Aptos\\Wefit\\wefit-backend\\node_modules\\request\\request.js:816:19)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at ClientRequest.emit (node:events:517:28)\n' +
+    '    at ClientRequest.emit (node:domain:489:12)\n' +
+    '    at TLSSocket.emitRequestTimeout (node:_http_client:847:9)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at TLSSocket.emit (node:events:529:35)\n' +
+    '    at TLSSocket.emit (node:domain:489:12)\n' +
+    '    at Socket._onTimeout (node:net:598:8)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)'
+})
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. ({
+  code: -32603,
+  message: 'ESOCKETTIMEDOUT',
+  data: { originalError: { code: 'ESOCKETTIMEDOUT', connect: false } },
+  stack: 'Error: ESOCKETTIMEDOUT\n' +
+    '    at ClientRequest.<anonymous> (F:\\Aptos\\Wefit\\wefit-backend\\node_modules\\request\\request.js:816:19)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at ClientRequest.emit (node:events:517:28)\n' +
+    '    at ClientRequest.emit (node:domain:489:12)\n' +
+    '    at TLSSocket.emitRequestTimeout (node:_http_client:847:9)\n' +
+    '    at Object.onceWrapper (node:events:631:28)\n' +
+    '    at TLSSocket.emit (node:events:529:35)\n' +
+    '    at TLSSocket.emit (node:domain:489:12)\n' +
+    '    at Socket._onTimeout (node:net:598:8)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)'
+})
+    at new NodeError (node:internal/errors:405:5)
+    at Web3ProviderEngine.emit (node:events:506:17)
+    at Web3ProviderEngine.emit (node:domain:489:12)
+    at F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\index.js:57:14
+    at afterRequest (F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\index.js:151:21)
+    at F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\index.js:176:21
+    at F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\index.js:238:9
+    at F:\Aptos\Wefit\wefit-backend\node_modules\async\internal\once.js:12:16
+    at replenish (F:\Aptos\Wefit\wefit-backend\node_modules\async\internal\eachOfLimit.js:61:25)
+    at F:\Aptos\Wefit\wefit-backend\node_modules\async\internal\eachOfLimit.js:71:9
+    at eachLimit (F:\Aptos\Wefit\wefit-backend\node_modules\async\eachLimit.js:43:36)
+    at F:\Aptos\Wefit\wefit-backend\node_modules\async\internal\doLimit.js:9:16
+    at end (F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\index.js:217:5)
+    at Request._callback (F:\Aptos\Wefit\wefit-backend\node_modules\@trufflesuite\web3-provider-engine\subproviders\rpc.js:36:21)
+    at self.callback (F:\Aptos\Wefit\wefit-backend\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:517:28)
